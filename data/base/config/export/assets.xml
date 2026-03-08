@@ -6,7 +6,7 @@
 
 ###  
 #   GUID-Ranges:  
-#   1600000xxx - 1600000xxx 
+#   1600000000 - 1600000001 
 #
 #
 #
@@ -18,31 +18,9 @@
 -->
 <ModOps>
 
-<!-- Testing -->
-<Group>
-<!--
-<Include File="testing/pools-forceSpawnTesting.xml"/> 
--->
-</Group>
-
-<!-- Common Specialists -->
-<Group>
-    <Include File="items-common/Test-C.xml" />
-</Group>
-
-<!-- Rare Specialists -->
-<Group>
-
-</Group>
-
-<!-- Epic Specialists -->
-<Group>
-
-</Group>
-
 <!-- Legendary Specialists -->
 <Group>
-
+    <Include File="items-legendary/Dolphin-L.xml" />
 </Group>
 
 <!-- Add to Pools -->
@@ -50,9 +28,6 @@
 <Include File="pools/RewardPool/RewardPool-AllItems&Specialists.xml" />
 
 <!-- Add to Traderpools --> 
-<Include File="pools/Traders/pools-common.xml" />
-<Include File="pools/Traders/pools-rare.xml" />
-<Include File="pools/Traders/pools-epic.xml" />
 <Include File="pools/Traders/pools-legendary.xml" />
 
 

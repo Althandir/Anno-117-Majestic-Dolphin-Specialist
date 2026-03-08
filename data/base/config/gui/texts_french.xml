@@ -1,34 +1,19 @@
 <ModOps>
 
-  <!-- Specialist Test-C -->
+  <!-- Specialist Specialist Dolphin-L -->
   <Group>
     <ModOp Add="/TextExport/Texts">
       <!-- Title -->
       <Text>
-          <Text>Specialist Test-C</Text>
+          <Text>Dauphin majestueux</Text>
           <LineId>1600000000</LineId> <!-- <GUID>1600000000</GUID> -->
       </Text>
       <!-- Description -->
       <Text>
-          <Text>Test Text. Meb Meb!</Text>
+          <Text>Héberger ici une créature aussi majestueuse attire de nombreux visiteurs de contrées lointaines. Regardez-le… agitant ses nageoires. Meb Meb.</Text>
           <LineId>1600000001</LineId> 
       </Text>
     </ModOp>
   </Group>
 
-  <!-- Specialist Test-C -->
-  <Group>
-    <ModOp Add="/TextExport/Texts">
-      <!-- Title -->
-      <Text>
-          <Text>Specialist AreaEffect-Test-C</Text>
-          <LineId>1600000002</LineId> <!-- <GUID>1600000002</GUID> -->
-      </Text>
-      <!-- Description -->
-      <Text>
-          <Text>Test Text. Meb Meb!</Text>
-          <LineId>1600000003</LineId> 
-      </Text>
-    </ModOp>
-  </Group>
 </ModOps>
