@@ -10,8 +10,13 @@
       </Text>
       <!-- Description -->
       <Text>
-          <Text>Die Beherbergung eines solch majestätischen Tieres zieht viele Besucher aus fernen Ländern an. Schau nur, wie es mit seinen Flossen wackelt. Meb Meb.</Text>
+          <Text>Die Beherbergung eines solch majestätischen Tieres zieht viele Besucher aus fernen Ländern an. Schau nur, wie es mit seinen Flossen wackelt.&#xD;"Meb Meb."</Text>
           <LineId>1600000001</LineId> 
+      </Text>
+      <!-- Boosted Hint -->
+      <Text>
+          <Text>"Meb Meb!"&#xD;"Der Delfin scheint Ornamente zu mögen! Vielleicht sollten wir ein paar auf der Insel platzieren?" (200 Ornaments)</Text>
+          <LineId>1600000494</LineId> 
       </Text>
     </ModOp>
   </Group>
