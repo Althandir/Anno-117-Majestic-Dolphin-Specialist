@@ -10,8 +10,13 @@
       </Text>
       <!-- Description -->
       <Text>
-          <Text>Héberger ici une créature aussi majestueuse attire de nombreux visiteurs de contrées lointaines. Regardez-le… agitant ses nageoires. Meb Meb.</Text>
+          <Text>Héberger ici une créature aussi majestueuse attire de nombreux visiteurs de contrées lointaines. Regardez-le… agitant ses nageoires.&#xD;"Meb Meb."</Text>
           <LineId>1600000001</LineId> 
+      </Text>
+      <!-- Boosted Hint -->
+      <Text>
+          <Text>!Meb Meb !"&#xD;Le dauphin semble aimer les décorations ! Peut-être devrions-nous en placer quelques-unes sur l'île ? (200 décorations)</Text>
+          <LineId>1600000494</LineId> 
       </Text>
     </ModOp>
   </Group>

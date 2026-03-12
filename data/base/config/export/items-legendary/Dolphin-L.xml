@@ -1,9 +1,9 @@
 <ModOps>
-<!-- Item Definition GUID:1600000000 - 1600000001 | LineID:1600000000 - 1600000001 -->
+<!-- Item Definition GUID:1600000000 - 1600000001 + 1600000494 | LineID:1600000000 - 1600000001 + 1600000494 -->
   <Group>
     <ModOp Type="addNextSibling" GUID="106410">
       <Asset>
-        <Template>Item</Template>
+        <Template>ItemWithBoost</Template>
         <Values>
           <Standard>
             <GUID>1600000000</GUID>
@@ -24,7 +24,7 @@
                 <GUID>92731</GUID>
               </Item>
             </Targets>
-            <HideInGovernorsBar>0</HideInGovernorsBar>
+            <HideInGovernorsBar>1</HideInGovernorsBar>
           </Effect>
           <Item>
             <Niche>Diplomacy</Niche> 
@@ -38,6 +38,37 @@
           <Text>
             <OasisId>1600000000</OasisId>
           </Text>
+
+          <ItemWithBoost>
+            <BoostCondition>
+              <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+              <Values>
+                <PreConditionList>
+                  <Condition>
+                    <Template>ConditionPlayerCounter</Template>
+                    <Values>
+                      <Condition/>
+                      <ConditionPlayerCounter>
+                        <Context>82585</Context>
+                        <CounterAmount>200</CounterAmount>
+                        <CounterScope>Area</CounterScope>
+                      </ConditionPlayerCounter>
+                      <ConditionLocationProps/>
+                      <ConditionCounterProps/>
+                      <ConditionPropsComparable/>
+                    </Values>
+                  </Condition>
+                </PreConditionList>
+              </Values>
+            </BoostCondition>
+            <BoostBuffs>
+              <Item>
+                <GUID>1600000494</GUID>
+              </Item>
+            </BoostBuffs>
+            <BoostHint>1600000494</BoostHint>
+          </ItemWithBoost>
+
         </Values>
       </Asset>
     </ModOp>
@@ -94,6 +125,53 @@
         </Asset>
     </ModOp>
     
+    <ModOp Type="addNextSibling" GUID="80193">
+        <Asset>
+            <Template>AreaBuff</Template>
+            <Values>
+                <Standard>
+                    <GUID>1600000494</GUID>
+                    <Name>Specialist Dolphin-L AreaBuff</Name>
+                    <IconFilename>data/base/graphics/icons/dolphin.png</IconFilename>
+                </Standard>
+                <Text>
+                    <OasisId>1600000000</OasisId>
+                </Text>
+                <AreaNeedAttributeBuff>
+                  <BonusAttributes>
+                    <Money>
+                      <ValueOrPercent>
+                        <Value>3</Value>
+                        <Percental>1</Percental>
+                      </ValueOrPercent>
+                    </Money>
+                    <Belief>
+                      <ValueOrPercent>
+                        <Value>5</Value>
+                        <Percental>1</Percental>
+                      </ValueOrPercent>
+                    </Belief>
+                    <Prestige>
+                      <ValueOrPercent>
+                        <Value>10</Value>
+                        <Percental>1</Percental>
+                      </ValueOrPercent>
+                    </Prestige>
+                  </BonusAttributes>
+                </AreaNeedAttributeBuff>
+                <AreaBuff/>
+                <Buff>
+                  <SourceCategory>Item</SourceCategory>
+                  <IsStackable>0</IsStackable> <!-- Ignored as this is an AreaBuff -->
+                </Buff>
+                <AreaPassiveTradeUpgrade>
+			            <PassiveTradeProfitModifier>50</PassiveTradeProfitModifier>
+		            </AreaPassiveTradeUpgrade>
+                <AreaMaintenanceUpgrade/>
+                <AreaFestivalAttributeUpgrade/>
+            </Values>
+        </Asset>
+    </ModOp>
   </Group>
 
 </ModOps>
