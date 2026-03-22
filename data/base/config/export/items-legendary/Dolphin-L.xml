@@ -19,11 +19,7 @@
                 <GUID>1600000001</GUID>
               </Item>
             </Buffs>
-            <Targets> <!-- Targets of Buff -->
-              <Item>
-                <GUID>92731</GUID>
-              </Item>
-            </Targets>
+            <Targets/>
             <HideInGovernorsBar>1</HideInGovernorsBar>
           </Effect>
           <Item>
