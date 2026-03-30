@@ -1,170 +1,325 @@
 <ModOps>
-<!-- Item Definition GUID:1600000000 - 1600000001 + 1600000494 | LineID:1600000000 - 1600000001 + 1600000494 -->
-  <Group>
-    <ModOp Type="addNextSibling" GUID="106410">
-      <Asset>
-        <Template>ItemWithBoost</Template>
-        <Values>
-          <Standard>
-            <GUID>1600000000</GUID>
-            <Name>Specialist Dolphin-L</Name>
-            <IconFilename>data/base/graphics/icons/dolphin.png</IconFilename>
-            <InfoDescription>1600000001</InfoDescription>
-          </Standard>
-          <Effect>
-            <EffectScope>Area</EffectScope> 
-            <SourceCategory>Item</SourceCategory>
-            <Buffs>
-              <Item>
-                <GUID>1600000001</GUID>
-              </Item>
-            </Buffs>
-            <Targets/>
-            <HideInGovernorsBar>1</HideInGovernorsBar>
-          </Effect>
-          <Item>
-            <Niche>Diplomacy</Niche> 
-            <TradePrice>500000</TradePrice>
-            <BarkPool>0</BarkPool>
-            <Rarity>Legendary</Rarity> 
-          </Item>
-          <Locked>
-            <DefaultLockedState>0</DefaultLockedState>
-          </Locked>
-          <Text>
-            <OasisId>1600000000</OasisId>
-          </Text>
+<!-- Item Definition GUID:1600000000 - 1600000001 + 1600000494 + 1600000576  | LineID:1600000000 - 1600000001 + 1600000494 -->
+    <Group>
+        <ModOp Type="addNextSibling" GUID="106410">
+        <Asset>
+            <Template>ItemWithBoost</Template>
+            <Values>
+            <Standard>
+                <GUID>1600000000</GUID>
+                <Name>Specialist Dolphin-L</Name>
+                <IconFilename>data/base/graphics/icons/dolphin.png</IconFilename>
+                <InfoDescription>1600000001</InfoDescription>
+            </Standard>
+            <Effect>
+                <EffectScope>Local</EffectScope> 
+                <SourceCategory>Item</SourceCategory>
+                <Buffs>
+                <Item>
+                    <GUID>1600000001</GUID>
+                </Item>
+                </Buffs>
+                <Targets>
+                    <Item>
+                        <GUID>92731</GUID>
+                    </Item>
+                </Targets>
+                <HideInGovernorsBar>1</HideInGovernorsBar>
+            </Effect>
+            <Item>
+                <Niche>Diplomacy</Niche> 
+                <TradePrice>500000</TradePrice>
+                <BarkPool>0</BarkPool>
+                <Rarity>Legendary</Rarity> 
+            </Item>
+            <Locked>
+                <DefaultLockedState>0</DefaultLockedState>
+            </Locked>
+            <Text>
+                <OasisId>1600000000</OasisId>
+            </Text>
 
-          <ItemWithBoost>
-            <BoostCondition>
-              <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
-              <Values>
-                <PreConditionList>
-                  <Condition>
-                    <Template>ConditionPlayerCounter</Template>
-                    <Values>
-                      <Condition/>
-                      <ConditionPlayerCounter>
-                        <Context>82585</Context>
-                        <CounterAmount>200</CounterAmount>
-                        <CounterScope>Area</CounterScope>
-                      </ConditionPlayerCounter>
-                      <ConditionLocationProps/>
-                      <ConditionCounterProps/>
-                      <ConditionPropsComparable/>
-                    </Values>
-                  </Condition>
-                </PreConditionList>
-              </Values>
-            </BoostCondition>
-            <BoostBuffs>
-              <Item>
-                <GUID>1600000494</GUID>
-              </Item>
-            </BoostBuffs>
-            <BoostHint>1600000494</BoostHint>
-          </ItemWithBoost>
+            <ItemWithBoost>
+                <BoostCondition>
+                <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                <Values>
+                    <PreConditionList>
+                    <Condition>
+                        <Template>ConditionPlayerCounter</Template>
+                        <Values>
+                        <Condition/>
+                        <ConditionPlayerCounter>
+                            <Context>82585</Context>
+                            <CounterAmount>200</CounterAmount>
+                            <CounterScope>Area</CounterScope>
+                        </ConditionPlayerCounter>
+                        <ConditionLocationProps/>
+                        <ConditionCounterProps/>
+                        <ConditionPropsComparable/>
+                        </Values>
+                    </Condition>
+                    </PreConditionList>
+                </Values>
+                </BoostCondition>
+                <BoostBuffs>
+                <Item>
+                    <GUID>1600000494</GUID>
+                </Item>
+                </BoostBuffs>
+                <BoostHint>1600000494</BoostHint>
+            </ItemWithBoost>
 
-        </Values>
-      </Asset>
-    </ModOp>
-  </Group>
+            </Values>
+        </Asset>
+        </ModOp>
+    </Group>
 
   <!-- Buff Definitions-->
   <Group>
-    <!-- AreaBuff Definition -->
+    <!-- BuildingEffect Definition -->
     <ModOp Type="addNextSibling" GUID="80193">
         <Asset>
-            <Template>AreaBuff</Template>
+            <Template>BuildingBuff</Template>
             <Values>
                 <Standard>
                     <GUID>1600000001</GUID>
-                    <Name>Specialist Dolphin-L AreaBuff</Name>
+                    <Name>Specialist Dolphin-L BuildingBuff</Name>
                     <IconFilename>data/base/graphics/icons/dolphin.png</IconFilename>
                 </Standard>
                 <Text>
                     <OasisId>1600000000</OasisId>
                 </Text>
-                <AreaNeedAttributeBuff>
-                  <BonusAttributes>
-                    <Money>
-                      <ValueOrPercent>
-                        <Value>1</Value>
-                        <Percental>1</Percental>
-                      </ValueOrPercent>
-                    </Money>
-                    <Belief>
-                      <ValueOrPercent>
-                        <Value>3</Value>
-                        <Percental>1</Percental>
-                      </ValueOrPercent>
-                    </Belief>
-                    <Prestige>
-                      <ValueOrPercent>
-                        <Value>5</Value>
-                        <Percental>1</Percental>
-                      </ValueOrPercent>
-                    </Prestige>
-                  </BonusAttributes>
-                </AreaNeedAttributeBuff>
-                <AreaBuff/>
+                <HealthUpgrade/>
+                <BuildingUpgrade>
+                    <AdditionalFunctionalEffect>1600000576</AdditionalFunctionalEffect>
+                </BuildingUpgrade>
+                <DistributionUpgrade/>
                 <Buff>
-                  <SourceCategory>Item</SourceCategory>
-                  <IsStackable>0</IsStackable> <!-- Ignored as this is an AreaBuff -->
+                    <SourceCategory>Item</SourceCategory>
                 </Buff>
-                <AreaPassiveTradeUpgrade>
-			            <PassiveTradeProfitModifier>15</PassiveTradeProfitModifier>
-		            </AreaPassiveTradeUpgrade>
-                <AreaMaintenanceUpgrade/>
-                <AreaFestivalAttributeUpgrade/>
+                <ResidenceUpgrade/>
+                <FactoryUpgrade/>
+                <ModuleOwnerUpgrade/>
+                <MaintenanceUpgrade/>
+                <CityInstitutionUpgrade/>
+                <IncidentInfectableUpgrade/>
+                <RecruitmentUpgrade/>
+                <AqueductUpgrade/>
+                <WarehouseUpgrade/>
+                <IrrigationUpgrade/>
             </Values>
         </Asset>
     </ModOp>
     
-    <ModOp Type="addNextSibling" GUID="80193">
+    <ModOp Type="addNextSibling" GUID="135498">
         <Asset>
-            <Template>AreaBuff</Template>
+            <Template>Effect</Template>
             <Values>
                 <Standard>
-                    <GUID>1600000494</GUID>
-                    <Name>Specialist Dolphin-L AreaBuff</Name>
+                    <GUID>1600000576</GUID>
+                    <Name>Specialist Dolphin-L FunctionalEffect</Name>
+                    <IconFilename>data/base/graphics/icons/dolphin.png</IconFilename>
+                </Standard>
+                <Effect>
+                    <EffectScope>Radius</EffectScope>
+                    <SourceCategory>Adjacency</SourceCategory>
+                    <Buffs>
+                        <Item>
+                            <GUID>1600000577</GUID>
+                        </Item>
+                    </Buffs>
+                    <Targets>
+                        <Item>
+                            <GUID>43097</GUID>
+                        </Item>
+                    </Targets>
+                    <ExcludeEffectSourceGUID>0</ExcludeEffectSourceGUID>
+                    <HideInGovernorsBar>1</HideInGovernorsBar>
+                </Effect>
+                <Text>
+                    <OasisId>1600000000</OasisId>
+                </Text>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <ModOp Type="addNextSibling" GUID="80193">
+        <Asset>
+            <Template>BuildingBuff</Template>
+            <Values>
+                <Standard>
+                    <GUID>1600000577</GUID>
+                    <Name>Specialist Dolphin-L FunctionalEffect BuildingBuff</Name>
                     <IconFilename>data/base/graphics/icons/dolphin.png</IconFilename>
                 </Standard>
                 <Text>
                     <OasisId>1600000000</OasisId>
                 </Text>
-                <AreaNeedAttributeBuff>
-                  <BonusAttributes>
-                    <Money>
-                      <ValueOrPercent>
-                        <Value>3</Value>
-                        <Percental>1</Percental>
-                      </ValueOrPercent>
-                    </Money>
-                    <Belief>
-                      <ValueOrPercent>
-                        <Value>5</Value>
-                        <Percental>1</Percental>
-                      </ValueOrPercent>
-                    </Belief>
-                    <Prestige>
-                      <ValueOrPercent>
-                        <Value>10</Value>
-                        <Percental>1</Percental>
-                      </ValueOrPercent>
-                    </Prestige>
-                  </BonusAttributes>
-                </AreaNeedAttributeBuff>
-                <AreaBuff/>
+                <HealthUpgrade/>
+                <BuildingUpgrade>
+                    <AdditionalAttributes>
+                        <Money>
+                            <AmountOrPercent>
+                                <Value>2</Value>
+                                <Percental>0</Percental>
+                            </AmountOrPercent>
+                        </Money>
+                        <Belief>
+                            <AmountOrPercent>
+                                <Value>2</Value>
+                                <Percental>0</Percental>
+                            </AmountOrPercent>
+				        </Belief>
+                        <Prestige>
+                            <AmountOrPercent>
+                                <Value>4</Value>
+                                <Percental>0</Percental>
+                            </AmountOrPercent>
+                        </Prestige>
+                    </AdditionalAttributes>
+                </BuildingUpgrade>
+                <DistributionUpgrade/>
                 <Buff>
-                  <SourceCategory>Item</SourceCategory>
-                  <IsStackable>0</IsStackable> <!-- Ignored as this is an AreaBuff -->
+                    <SourceCategory>Adjacency</SourceCategory>
                 </Buff>
-                <AreaPassiveTradeUpgrade>
-			            <PassiveTradeProfitModifier>50</PassiveTradeProfitModifier>
-		            </AreaPassiveTradeUpgrade>
-                <AreaMaintenanceUpgrade/>
-                <AreaFestivalAttributeUpgrade/>
+                <ResidenceUpgrade/>
+                <FactoryUpgrade/>
+                <ModuleOwnerUpgrade/>
+                <MaintenanceUpgrade/>
+                <CityInstitutionUpgrade/>
+                <IncidentInfectableUpgrade/>
+                <RecruitmentUpgrade/>
+                <AqueductUpgrade/>
+                <WarehouseUpgrade/>
+                <IrrigationUpgrade/>
+            </Values>
+        </Asset>
+    </ModOp>
+  </Group>
+
+  <Group>
+    <!-- Boosted BuildingEffect Definition -->
+    <ModOp Type="addNextSibling" GUID="80193">
+        <Asset>
+            <Template>BuildingBuff</Template>
+            <Values>
+                <Standard>
+                    <GUID>1600000494</GUID>
+                    <Name>Specialist Dolphin-L Boosted BuildingBuff</Name>
+                    <IconFilename>data/base/graphics/icons/dolphin.png</IconFilename>
+                </Standard>
+                <Text>
+                    <OasisId>1600000000</OasisId>
+                </Text>
+                <HealthUpgrade/>
+                <BuildingUpgrade>
+                    <AdditionalFunctionalEffect>1600000578</AdditionalFunctionalEffect>
+                </BuildingUpgrade>
+                <DistributionUpgrade/>
+                <Buff>
+                    <SourceCategory>Item</SourceCategory>
+                </Buff>
+                <ResidenceUpgrade/>
+                <FactoryUpgrade/>
+                <ModuleOwnerUpgrade/>
+                <MaintenanceUpgrade/>
+                <CityInstitutionUpgrade/>
+                <IncidentInfectableUpgrade/>
+                <RecruitmentUpgrade/>
+                <AqueductUpgrade/>
+                <WarehouseUpgrade/>
+                <IrrigationUpgrade/>
+            </Values>
+        </Asset>
+    </ModOp>
+    
+    <ModOp Type="addNextSibling" GUID="135498">
+        <Asset>
+            <Template>Effect</Template>
+            <Values>
+                <Standard>
+                    <GUID>1600000578</GUID>
+                    <Name>Specialist Dolphin-L Boosted FunctionalEffect</Name>
+                    <IconFilename>data/base/graphics/icons/dolphin.png</IconFilename>
+                </Standard>
+                <Effect>
+                    <EffectScope>Radius</EffectScope>
+                    <SourceCategory>Adjacency</SourceCategory>
+                    <Buffs>
+                        <Item>
+                            <GUID>1600000579</GUID>
+                        </Item>
+                    </Buffs>
+                    <Targets>
+                        <Item>
+                            <GUID>43097</GUID>
+                        </Item>
+                    </Targets>
+                    <ExcludeEffectSourceGUID>0</ExcludeEffectSourceGUID>
+                    <HideInGovernorsBar>1</HideInGovernorsBar>
+                </Effect>
+                <Text>
+                    <OasisId>1600000000</OasisId>
+                </Text>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <ModOp Type="addNextSibling" GUID="80193">
+        <Asset>
+            <Template>BuildingBuff</Template>
+            <Values>
+                <Standard>
+                    <GUID>1600000579</GUID>
+                    <Name>Specialist Dolphin-L Boosted FunctionalEffect BuildingBuff</Name>
+                    <IconFilename>data/base/graphics/icons/dolphin.png</IconFilename>
+                </Standard>
+                <Text>
+                    <OasisId>1600000000</OasisId>
+                </Text>
+                <HealthUpgrade/>
+                <BuildingUpgrade>
+                    <AdditionalAttributes>
+                        <Money>
+                            <AmountOrPercent>
+                                <Value>3</Value>
+                                <Percental>0</Percental>
+                            </AmountOrPercent>
+                        </Money>
+                        <Belief>
+                            <AmountOrPercent>
+                                <Value>3</Value>
+                                <Percental>0</Percental>
+                            </AmountOrPercent>
+				        </Belief>
+                        <Prestige>
+                            <AmountOrPercent>
+                                <Value>6</Value>
+                                <Percental>0</Percental>
+                            </AmountOrPercent>
+                        </Prestige>
+                        <FireSafety>
+                            <AmountOrPercent>
+                                <Value>1</Value>
+                                <Percental>0</Percental>
+                            </AmountOrPercent>
+                        </FireSafety>
+                    </AdditionalAttributes>
+                </BuildingUpgrade>
+                <DistributionUpgrade/>
+                <Buff>
+                    <SourceCategory>Adjacency</SourceCategory>
+                </Buff>
+                <ResidenceUpgrade/>
+                <FactoryUpgrade/>
+                <ModuleOwnerUpgrade/>
+                <MaintenanceUpgrade/>
+                <CityInstitutionUpgrade/>
+                <IncidentInfectableUpgrade/>
+                <RecruitmentUpgrade/>
+                <AqueductUpgrade/>
+                <WarehouseUpgrade/>
+                <IrrigationUpgrade/>
             </Values>
         </Asset>
     </ModOp>
