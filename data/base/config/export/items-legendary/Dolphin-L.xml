@@ -12,7 +12,7 @@
                 <InfoDescription>1600000001</InfoDescription>
             </Standard>
             <Effect>
-                <EffectScope>Local</EffectScope> 
+                <EffectScope>ObjectsInArea</EffectScope> 
                 <SourceCategory>Item</SourceCategory>
                 <Buffs>
                 <Item>
@@ -160,19 +160,19 @@
                     <AdditionalAttributes>
                         <Money>
                             <AmountOrPercent>
-                                <Value>2</Value>
+                                <Value>0.5</Value>
                                 <Percental>0</Percental>
                             </AmountOrPercent>
                         </Money>
                         <Belief>
                             <AmountOrPercent>
-                                <Value>2</Value>
+                                <Value>0.5</Value>
                                 <Percental>0</Percental>
                             </AmountOrPercent>
 				        </Belief>
                         <Prestige>
                             <AmountOrPercent>
-                                <Value>4</Value>
+                                <Value>1.5</Value>
                                 <Percental>0</Percental>
                             </AmountOrPercent>
                         </Prestige>
@@ -282,19 +282,19 @@
                     <AdditionalAttributes>
                         <Money>
                             <AmountOrPercent>
-                                <Value>3</Value>
+                                <Value>1</Value>
                                 <Percental>0</Percental>
                             </AmountOrPercent>
                         </Money>
                         <Belief>
                             <AmountOrPercent>
-                                <Value>3</Value>
+                                <Value>1</Value>
                                 <Percental>0</Percental>
                             </AmountOrPercent>
 				        </Belief>
                         <Prestige>
                             <AmountOrPercent>
-                                <Value>6</Value>
+                                <Value>3</Value>
                                 <Percental>0</Percental>
                             </AmountOrPercent>
                         </Prestige>
