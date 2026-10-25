@@ -8,7 +8,7 @@
             <Standard>
                 <GUID>1600000000</GUID>
                 <Name>Specialist Dolphin-L</Name>
-                <IconFilename>data/base/graphics/icons/dolphin.png</IconFilename>
+                <IconFilename>data/base/graphics/icons/Dolphin-Pack/dolphin.png</IconFilename>
                 <InfoDescription>1600000001</InfoDescription>
             </Standard>
             <Effect>
@@ -84,7 +84,7 @@
                 <Standard>
                     <GUID>1600000001</GUID>
                     <Name>Specialist Dolphin-L BuildingBuff</Name>
-                    <IconFilename>data/base/graphics/icons/dolphin.png</IconFilename>
+                    <IconFilename>data/base/graphics/icons/Dolphin-Pack/dolphin.png</IconFilename>
                 </Standard>
                 <Text>
                     <OasisId>1600000000</OasisId>
@@ -118,7 +118,7 @@
                 <Standard>
                     <GUID>1600000576</GUID>
                     <Name>Specialist Dolphin-L FunctionalEffect</Name>
-                    <IconFilename>data/base/graphics/icons/dolphin.png</IconFilename>
+                    <IconFilename>data/base/graphics/icons/Dolphin-Pack/dolphin.png</IconFilename>
                 </Standard>
                 <Effect>
                     <EffectScope>Radius</EffectScope>
@@ -150,7 +150,7 @@
                 <Standard>
                     <GUID>1600000577</GUID>
                     <Name>Specialist Dolphin-L FunctionalEffect BuildingBuff</Name>
-                    <IconFilename>data/base/graphics/icons/dolphin.png</IconFilename>
+                    <IconFilename>data/base/graphics/icons/Dolphin-Pack/dolphin.png</IconFilename>
                 </Standard>
                 <Text>
                     <OasisId>1600000000</OasisId>
@@ -206,7 +206,7 @@
                 <Standard>
                     <GUID>1600000494</GUID>
                     <Name>Specialist Dolphin-L Boosted BuildingBuff</Name>
-                    <IconFilename>data/base/graphics/icons/dolphin.png</IconFilename>
+                    <IconFilename>data/base/graphics/icons/Dolphin-Pack/dolphin.png</IconFilename>
                 </Standard>
                 <Text>
                     <OasisId>1600000000</OasisId>
@@ -240,7 +240,7 @@
                 <Standard>
                     <GUID>1600000578</GUID>
                     <Name>Specialist Dolphin-L Boosted FunctionalEffect</Name>
-                    <IconFilename>data/base/graphics/icons/dolphin.png</IconFilename>
+                    <IconFilename>data/base/graphics/icons/Dolphin-Pack/dolphin.png</IconFilename>
                 </Standard>
                 <Effect>
                     <EffectScope>Radius</EffectScope>
@@ -272,7 +272,7 @@
                 <Standard>
                     <GUID>1600000579</GUID>
                     <Name>Specialist Dolphin-L Boosted FunctionalEffect BuildingBuff</Name>
-                    <IconFilename>data/base/graphics/icons/dolphin.png</IconFilename>
+                    <IconFilename>data/base/graphics/icons/Dolphin-Pack/dolphin.png</IconFilename>
                 </Standard>
                 <Text>
                     <OasisId>1600000000</OasisId>
