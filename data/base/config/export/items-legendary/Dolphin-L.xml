@@ -294,16 +294,10 @@
 				        </Belief>
                         <Prestige>
                             <AmountOrPercent>
-                                <Value>3</Value>
+                                <Value>4</Value>
                                 <Percental>0</Percental>
                             </AmountOrPercent>
                         </Prestige>
-                        <FireSafety>
-                            <AmountOrPercent>
-                                <Value>1</Value>
-                                <Percental>0</Percental>
-                            </AmountOrPercent>
-                        </FireSafety>
                     </AdditionalAttributes>
                 </BuildingUpgrade>
                 <DistributionUpgrade/>
