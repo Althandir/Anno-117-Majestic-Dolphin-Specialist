@@ -1,0 +1,24 @@
+<ModOps>
+
+  <!-- Specialist Specialist Dolphin-L -->
+  <Group>
+    <ModOp Add="/TextExport/Texts">
+      <!-- Title -->
+      <Text>
+          <Text>Majestic Dolphin</Text>
+          <LineId>1600000000</LineId> <!-- <GUID>1600000000</GUID> -->
+      </Text>
+      <!-- Description -->
+      <Text>
+          <Text>Housing such a majestic Creature here attracts many visitors from far shores. Just look at it.. wiggling with his fins.&#xD;"Meb Meb."&#xD;(Alt-Dolphin-Pack)&#xD;Thank you for playing with my mod.&#xD;I hope you are having fun so far.&#xD;Big &#9829; for you.</Text>
+          <LineId>1600000001</LineId> 
+      </Text>
+      <!-- Boosted Hint -->
+      <Text>
+          <Text>"Meb Meb!"&#xD;The Dolphin seems to like Ornaments. Maybe we should place some on the Island? (200 Ornaments)</Text>
+          <LineId>1600000494</LineId> 
+      </Text>
+    </ModOp>
+  </Group>
+
+</ModOps>
