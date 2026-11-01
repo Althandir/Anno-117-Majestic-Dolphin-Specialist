@@ -4,7 +4,7 @@
 <Group>
     <ModOp Type="add" GUID="113059" Path="/Values/AssetPool/AssetList">
     <Item>
-        <ItemLink>1600000000</ItemLink>
+        <Asset>1600000000</Asset>
     </Item>
 
     </ModOp>
